@@ -1,6 +1,8 @@
 TCP Connect Scan
 sudo nmap -v -sT 10.10.108.162
 
+version scan
+nmap -sV <ip>
 
 
 
