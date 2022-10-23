@@ -1,0 +1,13 @@
+TCP Connect Scan
+sudo nmap -v -sT 10.10.108.162
+
+
+
+
+
+
+
+
+Vulnerability Scanner
+
+nmap -p445 --script smb-vuln-ms17-010 <target>
