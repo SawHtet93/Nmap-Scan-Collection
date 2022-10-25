@@ -5,11 +5,10 @@ version scan
 nmap -sV <ip>
 
 
-
-
-
-
-
 Vulnerability Scanner
 
+SMB
 nmap -p445 --script smb-vuln-ms17-010 <target>
+
+Joomla
+nmap -sV --script http-joomla-brute 10.10.236.111
